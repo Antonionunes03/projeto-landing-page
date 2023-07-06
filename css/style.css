@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.cabecalho{
+    display: grid;
+    grid-template-rows: 65% 35%;
+    height: 0px;
+    width: 100%;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    grid-row: 1/3 ;
+    z-index: 2;
+    
+}
+
+.logo-img{
+    width: 5rem ;
+    height: 5rem;
+    z-index: 2;
+}
+
+.paginas{
+    grid-column: 2/3;
+}
+
+.listapaginas{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    height: 100%;
+    list-style-type: none;
+}
+
+.textopaginas a{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    
+}
+
+.textopaginas:hover a{
+    color: #b88331;
+}
+
+.menu{
+    display: grid;
+    grid-row: 1/2;
+    grid-template-columns: 38rem;
+    height: 100px;
+    z-index: 1;
+}
+
+.principal-div{
+    background: url("../imagens/fundo.png") no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+
+}
+
+.btnCadastro{
+    display: flex;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px; 
+    border: 3px solid white;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 135px;
+    padding: 10px;
+    font-weight: 500;
+    background: none;
+    
+}
+
+.btnCadastro:hover{
+    border-color: #b88331;
+    
+}
+
+.btnCadastro:hover p{
+    color: #b88331;    
+}
+
+.principal-div h2{
+    display: flex;
+    color: #b88331;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    padding: 10px;
+    font-weight: 600;
+    margin-left: 1145px;
+}
+
+.cashback{
+    background: url(../imagens/fundo2.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.cashback h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 45px ;
+    margin-top: 300px;
+}
+
+.cashback h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px ;
+    margin-top: -300px;
+}
+
+.btnBeneficios{
+    display: flex;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px; 
+    border: 3px solid black;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 500;
+    background: none;
+}
+
+.btnBeneficios:hover{
+    border-color: #b88331;
+}
+
+.btnBeneficios:hover p{
+    color: #b88331;
+
+}
+
+.cashback p{
+    background: none;
+    color: black;
+}
+
+.contato{
+    background: url(../imagens/fundo3.png) no-repeat;
+    font-family:'Bebas Neue', cursive ;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: 100vh;
+    color: #b88331;
+    font-size: 40px;
+    
+}
+
+.contato h1{
+    margin-left: 100px;
+    margin-top: 410px;
+}
+
+.btnContato{
+    background: none;
+    font-size: 20px; 
+    border: 3px solid white;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: -0px;
+    
+}
+
+.btnContato:hover{
+    border-color: #b88331;
+}
+
+.btnContato:hover p{
+    color: #b88331;  
+}
+
+.perguntas{
+    background: url(../imagens/fundo4.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.perguntas h1{
+    margin-top: 20px;
+}
+
+.perguntas h3{
+    font-size: 25px;
+    margin-left: -500px;
+    margin-top: 100px;
+    
+}
+
+.respostas{
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.rodape{
+   background-color: #202020;
+    
+
+    
+}
+
+
+
+.imagensRedesSociais:hover img{
+    filter: brightness(50%);
+    color: #b88331;
+    
+ 
+    
+}
+
+.contatoRodape{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 130px;
+    
+    
+}
+
+
+.redesSociais{
+    margin-left: 123px;
+}
+
+
+.principal-contato-div{
+    background: url(../imagens/fundo5.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.principal-contato{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 260px;
+}
+
+
+input[type="text"], textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+input[type="password"], textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+
+input[type="submit"] {
+    background-color: #b88331;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+input[type="submit"]:hover {
+    background-color: #8f6629;
+}
+
+.formh1{
+    margin-bottom: 10px;
+    color: #202020;
+}
+
+.principal-cliente{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.principal-cliente-div{
+    background: url(../imagens/fundo6.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif; 
+
+}
+
+
+.principal-cliente-div h1{
+    margin-top: 210px;
+    margin-left: 80px;
+    color: #202020;
+
+}
+
+.principal-cliente-div h3{
+    font-size: 22px;
+    margin-left: 80px;
+    
+ 
+}
+
+.beneficio{
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    color: #8f6629;
+}
+
+.principal-cliente-div b{
+    color: #202020;
+    
+}
+
+.principal-cadastro-div{
+    background: url(../imagens/fundo7.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.principal-cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.btnCadastro2{
+    display: flex;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px; 
+    border: 3px solid white;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 77px;
+    padding: 10px;
+    font-weight: 500;
+    background: none;
+    
+}
+
+.btnCadastro2:hover{
+    border-color: #b88331;
+    
+}
+
+.btnCadastro2:hover p{
+    color: #b88331;    
+}
